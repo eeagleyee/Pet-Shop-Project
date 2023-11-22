@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { petData } from "../data"; // Importing pet data from an external file
 import PetCard from "./PetCard"; // Importing the PetCard component
-import Navbar from "./Navbar"; // Importing the Navbar component
+import Navbar from "./NavBar"; // Importing the Navbar component
 
 const PetList = () => {
   // State to manage the list of pets and filters
